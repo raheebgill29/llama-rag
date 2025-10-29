@@ -1,4 +1,4 @@
-# Requirements for running run_query.py
+# Requirements for running run_query.py and FastAPI server
 # Python 3.11+ recommended
 
 llama-index==0.14.6
@@ -12,3 +12,8 @@ tiktoken==0.12.0
 # Additional PDF parsers to improve compatibility
 pdfplumber==0.11.7
 pymupdf==1.26.5
+
+# FastAPI and server
+fastapi==0.115.2
+uvicorn[standard]==0.32.0
+python-dotenv==1.2.1
