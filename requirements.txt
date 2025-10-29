@@ -1,0 +1,14 @@
+# Requirements for running run_query.py
+# Python 3.11+ recommended
+
+llama-index==0.14.6
+llama-index-core==0.14.6
+llama-index-llms-openai==0.6.6
+llama-index-embeddings-openai==0.5.1
+llama-index-readers-file==0.5.4
+openai==1.109.1
+pypdf==6.1.3
+tiktoken==0.12.0
+# Additional PDF parsers to improve compatibility
+pdfplumber==0.11.7
+pymupdf==1.26.5
